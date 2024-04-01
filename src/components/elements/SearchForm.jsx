@@ -120,7 +120,7 @@ function SearchFormComponent({ clearFilters, setFieldValue, values }) {
             <div className="text-right">
               <button
                 type="button"
-                className="p-2 text-black rounded mb-2 mr-2 font-semibold dark:text-white"
+                className="p-2 text-white rounded mb-2 mr-2 font-semibold dark:text-white"
                 onClick={resetForm}
               >
                 Clear Filters
