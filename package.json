@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "start:dev": "REACT_APP_USE_MIRAGE=true react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-app-rewired  start",
+    "start:dev": "REACT_APP_USE_MIRAGE=true react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
     "lint": "node_modules/.bin/eslint --ext js,jsx src",
     "lint:fix": "node_modules/.bin/eslint --fix --ext .js,.jsx src"
   },
@@ -60,10 +60,13 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.9",
+    "@onlook/babel-plugin-react": "^1.1.1",
     "@testing-library/dom": "^8.14.0",
     "@testing-library/user-event": "^14.2.1",
     "autoprefixer": "^10.4.7",
+    "customize-cra": "^1.0.0",
     "postcss": "^8.4.14",
+    "react-app-rewired": "^2.2.1",
     "tailwindcss": "^3.1.5"
   },
   "jest": {
