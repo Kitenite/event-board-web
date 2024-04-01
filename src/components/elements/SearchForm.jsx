@@ -121,7 +121,8 @@ function SearchFormComponent({ clearFilters, setFieldValue, values }) {
               <button
                 type="button"
                 className="p-2 text-black rounded mb-2 mr-2 font-semibold dark:text-white"
-                onClick={resetForm}
+                style={{ color: "#ffffff" }}
+              onClick={resetForm}
               >
                 Clear Filters
               </button>

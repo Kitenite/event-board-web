@@ -28,7 +28,8 @@ export default function App() {
     <div className="bg-du-gray dark:bg-du-indigo-900 transition duration-300">
       <AuthProvider>
         <CurrentUser>
-          <section className="flex flex-col min-h-screen justify-between">
+          <section className="flex flex-col min-h-screen justify-between" style={{ color: '#ffffff', backgroundColor: '#000000' }}>
+          
             <section className="md:hidden">
               <MobileNav />
             </section>
